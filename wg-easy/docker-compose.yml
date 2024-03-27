@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  wg-easy:
+    networks:
+      adguard-wireguard:
+        ipv4_address: 10.255.0.3
+
+networks:
+  adguard-wireguard:
+    driver: bridge
+    name: adguard-wireguard
+    ipam:
+      config:
+       - subnet: 10.255.0.0/16 
