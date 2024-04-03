@@ -4,6 +4,8 @@ services:
     networks:
       adguard-wireguard:
         ipv4_address: 10.255.0.3
+    labels:
+      traefik.docker.network: runtipi_tipi_main_network
 
 networks:
   adguard-wireguard:
