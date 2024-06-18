@@ -1,0 +1,3 @@
+services:
+  homeassistant-1:
+    network_mode: host
