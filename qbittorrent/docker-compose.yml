@@ -1,0 +1,4 @@
+services:
+  qbittorrent:
+    volumes:
+      - /mnt/wd-hdd/media:/media/torrents

@@ -1,0 +1,4 @@
+services:
+  nextcloud:
+    volumes:
+      - /mnt/wd-hdd/nextcloud:/var/www/html/data

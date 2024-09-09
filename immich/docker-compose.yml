@@ -1,0 +1,4 @@
+services:
+  immich:
+    volumes:
+      - /mnt/wd-hdd/media/data/images/immich:/usr/src/app/upload

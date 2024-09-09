@@ -1,0 +1,4 @@
+services:
+  plex:
+    volumes:
+      - /mnt/wd-hdd/media:/media
