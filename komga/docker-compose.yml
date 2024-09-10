@@ -1,0 +1,4 @@
+services:
+  komga:
+    volumes:
+      - /mnt/wd-hdd/media/data:/data
