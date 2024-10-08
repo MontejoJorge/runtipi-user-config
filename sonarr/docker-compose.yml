@@ -1,4 +1,4 @@
 services:
   sonarr:
     volumes:
-      - /mnt/wd-hdd/media:/media
+      - /mnt/wd-hdd/media:/media/torrents
